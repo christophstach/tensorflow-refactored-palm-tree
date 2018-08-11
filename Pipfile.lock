@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7a0ddd84b87af0e496a602342d6fa2909c9b94a47e44aec075a6a6d6d3dc66df"
+            "sha256": "ac0970a6952827136a4cb2724502ba1cf580483988b5b63e7fe0d66ef69bcc5c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -277,21 +277,6 @@
                 "sha256:a0ad5e1e9ccb230fbcbde78cd187b74526db3145899f5c639f453e246c0b80c0"
             ],
             "index": "pypi",
-            "markers": "sys_platform != 'darwin'",
-            "version": "==1.10.0"
-        },
-        "tensorflow-gpu": {
-            "hashes": [
-                "sha256:04512cc1f306593cc7153f3fb63abc723d1ba01b0d180fd5aa50360db3b97114",
-                "sha256:2b04b60b76396e9836fbdf02fefeb6af7ef6766d23d8b538f3fbf4d87ad56315",
-                "sha256:4d07fe949d3d4adcaf8a6b0435fb272faf4c809645458b30fe4f187bc7365de4",
-                "sha256:5e156626db0030d3c1656ce30bce59b4f7fcd94902642982d92ce3eedd20f46e",
-                "sha256:621a6efdca4c7c7cf42e2b8a362f16462107c8f9affdfbcb110d4e965884fe38",
-                "sha256:9cc66cf26bcd2506ec42843dc4af77844f144f5341887fb30bf12dc330fb031a",
-                "sha256:bf08d9208e58dae11934a7066d9ef644ac99098a714b3bace46cd7807625e4a6"
-            ],
-            "index": "pypi",
-            "markers": "sys_platform == 'darwin'",
             "version": "==1.10.0"
         },
         "termcolor": {

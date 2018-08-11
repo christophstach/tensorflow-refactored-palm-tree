@@ -4,8 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tensorflow-gpu = {version = "*", sys_platform = "== 'darwin'"}
-tensorflow = {version = "*", sys_platform = "!= 'darwin'"}
+tensorflow = "*"
 pandas = "*"
 matplotlib = "*"
 
