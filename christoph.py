@@ -1,17 +1,27 @@
+import pandas as pd
+
 from typing import Dict
 
 from tensorflow.keras.layers import Dense, Activation
 from tensorflow.keras.models import Sequential
 
 
-def get_train_split(ratio: int) -> Dict[int, int, int, int]:
+def get_train_test():
+    df_train: pd.DataFrame = pd.read_csv('data/train.csv')
+    df_test: pd.DataFrame = pd.read_csv('data/test.csv')
+
+    df_train = df_train[['LotFrontage', 'LotArea']]
+
+
+    print(df_train.head(10))
     pass
 
 
 def train():
     model = Sequential([
-        Dense(32, input_shape=(784,)),
-        Activation('relu'),
-        Dense(10),
+
         Activation('softmax'),
     ])
+
+
+get_train_test()
