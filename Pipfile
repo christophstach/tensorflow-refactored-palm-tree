@@ -7,6 +7,9 @@ name = "pypi"
 tensorflow = "*"
 pandas = "*"
 matplotlib = "*"
+xlwt = "*"
+seaborn = "*"
+sklearn = "*"
 
 [dev-packages]
 
