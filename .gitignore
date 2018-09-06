@@ -38,3 +38,6 @@ Thumbs.db
 
 .idea
 *.xls
+
+
+__pycache__
